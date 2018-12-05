@@ -8,5 +8,5 @@ class freelancer(models.Model):
     
 
     def __str__(self):
-        return self.id
+        return self.first_name +''+self.last_name
 
