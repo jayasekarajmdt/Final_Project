@@ -74,3 +74,6 @@ class RetrieveFreelancerView(MultipleFieldLookupMixin, generics.RetrieveAPIView)
     queryset=freelancer.objects.all()
     serializer_class=freelancerSerializer
     lookup_fields = ('first_name', 'id')
+
+
+

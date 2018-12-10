@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'rest_framework',
     'freelancers',
-    'django_filters'
+    'django_filters'    
 ]
 
 MIDDLEWARE = [
@@ -83,6 +83,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
+     
 }
 
 

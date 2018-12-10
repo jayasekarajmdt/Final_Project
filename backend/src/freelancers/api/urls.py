@@ -6,6 +6,6 @@ from .views import FreelancerListView,FreelancerDetailView,SearchFreelancerListV
 urlpatterns=[
     path('',FreelancerListView.as_view()),
     path('searchList/',SearchFreelancerListView.as_view()),
-     path('searchList/AdvanceSearch',views.AdvanceSearchFreelancerListView),
+    path('searchList/AdvanceSearch',views.AdvanceSearchFreelancerListView),
     path('<pk>',FreelancerDetailView.as_view())
 ] 
